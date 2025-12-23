@@ -1,0 +1,40 @@
+# ========================
+# Backend dependencies
+# ========================
+server/node_modules/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/pnpm-debug.log*
+
+# ========================
+# Environment variables
+# ========================
+server/.env
+server/.env.*
+!server/.env.example
+
+# ========================
+# Build outputs
+# ========================
+server/dist/
+server/build/
+
+# ========================
+# Logs
+# ========================
+server/logs/
+server/*.log
+
+# ========================
+# Coverage / testing
+# ========================
+server/coverage/
+
+# ========================
+# OS / Editor files
+# ========================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
